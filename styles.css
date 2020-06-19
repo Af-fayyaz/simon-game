@@ -1,0 +1,100 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  2.5% 5% 2.5% 5%;
+  color: #FEF2BF;
+}
+
+p{
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 5%;
+}
+
+.hscore{
+  color:#fff;
+  display:inline-block;
+  margin-left: 5%;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin-top: 2%;
+  margin: auto;
+
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:18px;
+	border:3px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:21px;
+	font-weight:bold;
+	font-style:italic;
+	padding:13px 44px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+@media only screen and (max-width:425) {
+.row{
+  display: grid;
+}
+#level-title{
+  margin:  5% 5% 2.5% 5%;
+}
+}
