@@ -99,6 +99,10 @@ footer{
   display: grid;
 }
 #level-title{
-  margin:  5% 5% 2.5% 5%;
+  margin:  5%;
+}
+.hscore{
+  display: block;
+  margin: auto;
 }
 }
