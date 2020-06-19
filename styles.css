@@ -121,4 +121,12 @@ body{
     footer{
     margin-right: 5%;
     }
+	
+	.container{
+    display: inline-block;
+    width: 100%;
+    margin-top: 2%;
+    padding-left: 2.5%;
+    margin: auto;
+  }
 }
