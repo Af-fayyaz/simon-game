@@ -71,7 +71,7 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 200);
 
-    $("h1").text("Game Over, Press Start");
+    $("h1").text("Game Over");
     $(".myButton").text("Play Again");
 
     startOver();
