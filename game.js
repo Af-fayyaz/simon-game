@@ -63,7 +63,7 @@ function checkAnswer(currentLevel) {
     }
     $(".hscore").text("High Score: " + highscore);
 
-    var wrong = new Audio("sounds/wrong.mp3");
+    var wrong = new Audio("sounds/wrong.ogg");
     wrong.play();
 
     $("body").addClass("game-over");
@@ -95,7 +95,7 @@ function nextSequence() {
 }
 
 function playSound(name) {
-  var audio = new Audio("sounds/" + name + ".mp3");
+  var audio = new Audio("sounds/" + name + ".ogg");
   audio.play();
 }
 
