@@ -61,7 +61,7 @@ function checkAnswer(currentLevel) {
     $(".hscore").text("High Score: " + highscore);
 
     //Play this sound if the user got the answer wrong.
-    var wrong = new Audio("sounds/wrong.mp3");
+    var wrong = new Audio("sounds/wrong.ogg");
     wrong.play();
 
     //apply "game-over" class  then remove it after 200 milliseconds.
@@ -103,7 +103,7 @@ function nextSequence() {
 
 //play the corresponding sound
 function playSound(name) {
-  var audio = new Audio("sounds/" + name + ".mp3");
+  var audio = new Audio("sounds/" + name + ".ogg");
   audio.play();
 }
 
